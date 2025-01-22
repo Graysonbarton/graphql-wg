@@ -73,7 +73,7 @@ PLEASE TAKE NOTE:
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# GraphQL WG — October 2024 (Primary)
+# GraphQL WG — March 2025 (Primary)
 
 The GraphQL Working Group meets regularly to discuss changes to the
 [GraphQL Specification][] and other core GraphQL projects. This is an open
@@ -83,7 +83,7 @@ This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.
 
-- **Date & Time**: [October 3, 2024, 10:30 AM – 12:00 PM PDT](https://www.timeanddate.com/worldclock/converter.html?iso=20241003T173000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
+- **Date & Time**: [March 6, 2025, 10:30 AM – 12:00 PM PST](https://www.timeanddate.com/worldclock/converter.html?iso=20250306T183000&p1=224&p2=179&p3=136&p4=268&p5=367&p6=438&p7=248&p8=240)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -104,13 +104,8 @@ hold additional secondary meetings later in the month.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Benjie Gillam (Host) | @benjie   | Graphile           | Chandler's Ford, UK   |
-| Rob Richard      | @robrichard   | 1stDibs            | New Jersey, US        |
-| Matt Mahoney     | @mjmahone     | Meta               | Brooklyn, NY, US      |
-| Stephen Spalding | @fotoetienne  | Netflix            | Los Gatos, CA, USA    |
-| Kewei Qu         | @Keweiqu      | Meta               | Menlo Park, CA, USA   |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
-| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
+| Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
+
 
 ## Agenda
 
@@ -122,20 +117,4 @@ hold additional secondary meetings later in the month.
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
-1. Review prior secondary meetings (5m, Host)
-   - [GraphQL WG — September 2024 (Secondary, APAC)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/09-Sep/11-wg-secondary-apac.md)
-   - [GraphQL WG — September 2024 (Secondary, EU)](https://github.com/graphql/graphql-wg/blob/main/agendas/2024/09-Sep/19-wg-secondary-eu.md)
-1. Review previous meeting's action items (5m, Host)
-   - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
-   - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-   - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-1. [Fix coercion table for list](https://github.com/graphql/graphql-spec/pull/1057/files) - editorial? (10m, Benjie)
-1. [Validate that operation type exists](https://github.com/graphql/graphql-spec/pull/1098) (10m, Benjie)
-1. Incremental Delivery update (15m, Rob)
-   - [New Spec Draft](https://github.com/graphql/graphql-spec/pull/1110)
-   - [GraphQL Conf Talk](https://youtu.be/LEyDeNoobT0)
-   - [Examples](https://github.com/graphql/defer-stream-wg/discussions/69)
-1. [Advance @oneOf to RFC3?](https://github.com/graphql/graphql-spec/pull/825) (10m, Benjie)
-   - Hesitation from Yaacov: [do we _need_ the new validation rule?](https://github.com/benjie/graphql-spec/pull/1)
-1. [Replace ExecuteSelectionSet with ExecuteGroupedFieldSet](https://github.com/graphql/graphql-spec/pull/1039) (15m, Benjie)
-   - Needed by Yaacov, Rob and Benjie's various implementations of incremental delivery, and also by [Jovi's fragment arguments](https://github.com/graphql/graphql-spec/pull/1081#issuecomment-2329504269) PR
+1. Check for [ready for review agenda items](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)

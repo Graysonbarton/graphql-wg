@@ -105,7 +105,17 @@ hold additional secondary meetings later in the month.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Lee Byron (Host) | @leebyron     | GraphQL Foundation | San Francisco, CA, US |
-
+| Martin Bonnin | @martinbonnin     | Apollo | Paris, FR |
+| Greg Wardwell | @gwardwell     | Wayfair | Fort Wayne, IN, USA |
+| Rob Richard   | @robrichard    | 1stDibs | New Jersey, US |
+| Kewei Qu      | @Keweiqu       | Meta    | Menlo Park, CA, US |
+| Benoit Lubek  | @BoD           | Apollo  | Paris, FR |
+| Alex Reilly      | @twof       | Independent    | San Francisco, CA, US |
+| Benjie Gillam | @benjie        | Graphile | Chandler's Ford, UK |
+| Jeff Auriemma (arriving late) | @bignimbus    | Apollo             | Monroe, CT, US        |
+| Yaacov Rydzinski | @yaacovcr     | Individual         | Neve Daniel           |
+| Calvin Cestari | @calvincestari | Apollo | Vancouver, BC |
+| Stephen Spalding | @fotoetienne | Netflix | Los Gatos, CA, US |
 
 ## Agenda
 
@@ -124,3 +134,23 @@ hold additional secondary meetings later in the month.
    - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
    - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
+1. Make `reason` non-nullable in `@deprecated` (@martinbonnin, 5 min)
+   - https://github.com/graphql/graphql-spec/pull/1040
+1. Discuss enhancing deprecation (@gwardwell, 15 min)
+   - Align on next steps for expanded client use cases (union member and interface implementation deprecation)
+   - Align on next steps for service/development use cases (deprecation as communication for distributed schema development)
+   - Issue for context: https://github.com/graphql/graphql-spec/issues/1119
+   - Open object type deprecation PR: https://github.com/graphql/graphql-spec/pull/997
+1. Incremental Delivery update (@robrichard, 15 min)
+   - Asking for review of spec edits
+   - [PR open against integration branch, containing only sections 3 & 7](https://github.com/graphql/graphql-spec/pull/1124)
+   - [Full PR](https://github.com/graphql/graphql-spec/pull/1110)
+1. Nullability WG Update (@twof, 10 min)
+1. Directive Meta-Field Proposal (@yaacovCR, 5 min)
+   - [Spec PR](https://github.com/graphql/graphql-spec/pull/1114)
+   - [Implementatoin PR](https://github.com/graphql/graphql-js/pull/4203)
+1. Subscriptions and Source Event Stream Errors (@yaacovCR, 15m)
+   - Can graphql-js throw on source stream errors? See: https://github.com/graphql/graphql-js/issues/4001
+   - Relation to proposed event stream edits by @leebyron at https://github.com/graphql/graphql-spec/pull/1099
+1. Interface field argument default values (@yaacovCR, 15m)
+   - Spec bug? https://github.com/graphql/graphql-spec/issues/1121

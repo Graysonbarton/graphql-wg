@@ -31,12 +31,6 @@ meeting in which anyone in the GraphQL community may attend.
 This is the primary monthly meeting, which typically meets on the first Thursday
 of the month. In the case we have additional agenda items or follow ups, we also
 hold additional secondary meetings later in the month.`,
-  agendaTemplateBottom: `\
-1. Review previous meeting's action items (5m, Host)
-   - [Ready for review](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
-   - [All open action items (by last update)](https://github.com/graphql/graphql-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-   - [All open action items (by meeting)](https://github.com/graphql/graphql-wg/projects?query=is%3Aopen+sort%3Aname-asc)
-`,
   links: {
     "graphql specification": "https://github.com/graphql/graphql-spec",
     calendar:
@@ -46,7 +40,33 @@ hold additional secondary meetings later in the month.`,
     "ical file":
       "https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics",
   },
+
+  annualItems: [
+    {
+      month: 11,
+      allMeetings: true,
+      text: `**TSC elections**: open for self-nominations (5m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+- [Nomination form](https://tsc-nomination.graphql.org/)`,
+    },
+    {
+      month: 12,
+      text: `**TSC elections**: voting now open (2m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)`,
+    },
+    {
+      month: 1,
+      text: `**TSC**: election results (2m, Host)
+- [Election process](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#election-process)
+- [This year's TSC members](https://github.com/graphql/graphql-wg/blob/main/GraphQL-TSC.md#tsc-members)`,
+    },
+  ],
+
   secondaryMeetings: [
+    // We decided at the primary WG in November 2024 to cancel the secondaries
+    // since they have not been leveraged for a while. We can bring them back
+    // as and when they are necessary.
+    /*
     {
       // Wednesday, not Thursday
       dayOffset: -1,
@@ -81,6 +101,7 @@ primary meeting is preferred for new agenda, where this meeting is for overflow
 agenda items, follow ups from the primary meeting, or agenda introduced by those
 who could not make the primary meeting time.`,
     },
+    */
   ],
 };
 
